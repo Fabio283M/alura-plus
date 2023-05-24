@@ -7,6 +7,7 @@
 
 body {
     background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
 }
 
 * {
@@ -15,5 +16,11 @@ body {
 }
 
 .principal{
-    background-image: url("clash.png");
+   background-image: url("img/background.png") 
+   background-repeat: no-repeat;
+   background-size: contain;
 }
+
+        .container {
+            height: 100vh;
+        }
